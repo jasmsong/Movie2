@@ -55,7 +55,6 @@ class MovieData
 	##
 	# load data, create training set and test set
 	def load_data(folder, u1)
-		count = 0
    		f_training = open(folder + "/" + u1 + ".base")
    		f_test = open(folder + "/" + u1 + ".test")
    		80000.times do
